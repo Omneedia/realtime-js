@@ -1,5 +1,5 @@
 {
-  "name": "@supabase/realtime-js",
+  "name": "@omneedia/realtime-js",
   "version": "0.0.0-automated",
   "description": "Listen to realtime updates to your PostgreSQL database",
   "keywords": [
@@ -8,11 +8,10 @@
     "elixir",
     "javascript",
     "typescript",
-    "firebase",
-    "supabase"
+    "omneedia"
   ],
-  "homepage": "https://github.com/supabase/realtime-js",
-  "bugs": "https://github.com/supabase/realtime-js/issues",
+  "homepage": "https://github.com/omneedia/realtime-js",
+  "bugs": "https://github.com/omneedia/realtime-js/issues",
   "files": [
     "dist",
     "src"
@@ -20,8 +19,8 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "https://github.com/supabase/realtime-js",
-  "author": "Supabase",
+  "repository": "https://github.com/omneedia/realtime-js",
+  "author": "Omneedia",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist docs/v2",
@@ -56,5 +55,8 @@
     "sinon": "^9.0.2",
     "typedoc": "^0.22.16",
     "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
